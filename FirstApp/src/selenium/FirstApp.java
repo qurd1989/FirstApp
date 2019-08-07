@@ -1,3 +1,5 @@
+//this codes for educational purposes only!
+//Any correction Welcomed
 package selenium;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
@@ -18,8 +20,8 @@ public class FirstApp {
 	WebDriver driver = new ChromeDriver();
 	
 	driver.get("http://www.demo.guru99.com/v4/");
-	driver.findElement(By.name("uid")).sendKeys("mngr214448");
-	driver.findElement(By.name("password")).sendKeys("YtUrutY");
+	driver.findElement(By.name("uid")).sendKeys("yourID");
+	driver.findElement(By.name("password")).sendKeys("YourPassword");
     WebElement login= driver.findElement(By.xpath("//input[contains(@type,'submit')]"));
     login.click();
     
