@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="C:/Users/abdiy/OneDrive/Desktop/selenium/selenium-java-3.141.59 (1)/libs/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/abdiy/OneDrive/Desktop/selenium/selenium-java-3.141.59 (1)/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/abdiy/OneDrive/Desktop/selenium/selenium-java-3.141.59 (1)/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
