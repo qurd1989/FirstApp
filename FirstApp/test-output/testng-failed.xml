@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.tagNameMethod">
+      <class name="selenium.GetMethod">
         <methods>
+          <include name="getText"/>
+          <include name="launchBrowser"/>
+          <include name="Up"/>
           <include name="setUp"/>
-          <include name="launchingPage"/>
-          <include name="testingSite"/>
+          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- selenium.tagNameMethod -->
+      </class> <!-- selenium.GetMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -34,10 +34,10 @@ public class tagNameMethod {
 	void testingSite() {
 		//get tag name by ID
 		String  tagname = driver.findElement(By.id("email")).getTagName();
-		//get TagName by xpath
+		//get TagName by LinkText
 		String tagname1 = driver.findElement(By.linkText("Sign Up")).getTagName();
 		System.out.println(tagname1);
-		
+		//class name 
 		Class<? extends WebElement> className = driver.findElement(By.id("pass")).getClass();
 		System.out.println(className);
 		System.out.println(tagname);
