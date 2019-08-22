@@ -5,6 +5,8 @@ import static org.testng.Assert.assertTrue;
 
 import java.util.concurrent.TimeUnit;
 
+import javax.swing.text.StyledEditorKit.BoldAction;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -53,6 +55,7 @@ public class GetMethod {
 		void getText() {
 			WebElement myElement1 = driver.findElement(By.xpath("//*[@content='IE=edge']"));
 			System.out.println(myElement1.getText());
+		
 			
 		}
 	
@@ -63,7 +66,7 @@ public class GetMethod {
 	@AfterClass
 	void quitBrowser() throws InterruptedException {
 		Thread.sleep(5000);
-		//driver.quit();
+		driver.quit();
 		
 	}
 
