@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.NavigateExmples">
+      <class name="selenium.Assignment10">
         <methods>
+          <include name="ajaxTesting"/>
           <include name="setUp"/>
-          <include name="quitBrowser"/>
-          <include name="navigateTo"/>
-          <include name="navigateMethod"/>
         </methods>
-      </class> <!-- selenium.NavigateExmples -->
+      </class> <!-- selenium.Assignment10 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
